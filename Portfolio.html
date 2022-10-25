@@ -3,64 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="PROFILE.css">
+    <link rel="stylesheet" href="css/PROFILE.css">
+    <link rel="stylesheet" href="css/Manunav.css">
+    <link rel="stylesheet" href="css/Games.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPortFolio[木間悠太]</title>
     <meta name="description" content="木間悠太のポートフォリオサイトです。"/>
-    <link href="https://github.com/kadasumi" rel="stylesheet">
+ 
+    <nav>
+        <ul>
+            <p class="maintext">
+                <h1 class="site-title">ポートフォリオ</h1>
+            </p>
+            <li><a href="#Top" class="onMause" onclick="Tops()">Top</a></li>
+            <li><a href="#Game" class="onMause" onclick="Tops()">Game</a></li>
+            <li><a href="#ProFile" class="onMause" onclick="Tops()">ProFile</a></li>
+        </ul>
+    </nav>
 </head>
-<body>
-    <header class="cf">
-		<h1 class="site-title"><a href="#">ポートフォリオ</a></h1>
-		<nav class="nav">
-			<ul>
-				<li><a href="#">Top</a></li>
-                <li><a href="#">Game</a></li>
-                <li><a href="#">ProFile</a></li>
-			</ul>
-		</nav>
-	</header>
-    <div class="name">木間　悠太 Yuta Konoma</div>
 
+<body>
     <div class="main-top">
         <h2><br>TOP<br></h2>
+        <a id = "#Top"></a>
+        <div class="profile-backimg"></div>
+            <div class="name">木間　悠太</div>
+    </div>
 
-        <section class="wrap about cf">
-            <h2 class="title">PROFILE</h2>
-            <div class="profile-backimg">
-                <div class="name">木間　悠太</div>
-                <div class="sns">
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="profile">
-                <ul class="career">
-                    <li>プログラマー</li>
-                </ul>
-                <img src="images/IMG_0845.JPG" class="Certificate1">
-                
-            </div>
+    <div class="profile">
+        <a id= "ProFile"></a>
+        <h2><br>PROFILE<br></h2>
+        <div class="Certificate1">
+           <img src="images/IMG_0845.JPG">  
+        </div>                              
+        <p class="mail">Kar135sumi@gmail.com</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    </div>
 
-            <section class="wrap work">
-                <h2 class="title">Game</h2>
-                <div class="containar">
-                    <div class="item">
-                        <a href="#">
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                        </a>
-                    </div>
-                </div>
-                <div class="more"><a href="#">詳しくみる</a></div>
-            </section>
-        </section>
+    <div class="Games">
+    	<a id="Game"></a>
+        <h2 class="Hidden"><br>Game<br></h2>
+        <h3 class="Hidden">1Dayゲームジャム制作ゲーム</h3>
+        <iframe width="560" height="315" class="Hidden"
+            src="https://youtu.be/R-prkx83mSY
+            ?loop=1
+            &playlist=vdxoDyNAoH0
+            &autoplay=1
+            &mute=1
+            &rel=0
+            &modestbranding=1"
+            frameborder="0" allowfullscreen>
+        </iframe>
+        <a href="https://github.com/kadasumi/StarJam10-16"  class="Hidden">
+            <div class="Git" class ="Hidden">
+            <img src="images/git-hub-logo-5.jpg" class="Hidden"></div>
+        </a>
+
     </div>
 </body>
 </html>
