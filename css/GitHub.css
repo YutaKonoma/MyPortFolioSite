@@ -1,9 +1,7 @@
-GitHub img{
-    width: 200px;
+.GitHub img{
+    width: 50px;
 }
 img.GitHub_button:hover{
- 
-	/* 透明度を上げることで、画像の色を薄く見せる。*/
 	opacity:0.5;
 
 	cursor: pointer;
@@ -11,7 +9,6 @@ img.GitHub_button:hover{
 img.GitHub_button:active{
 	position: relative;
 	top: 3px;
- 
 }
 
   
