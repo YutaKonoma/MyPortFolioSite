@@ -1,22 +1,30 @@
-ManunaviButton {
+ManunaviButton { 
+   border: 1px solid rgb(255, 135, 135);
+  background: #9fc1ff;
+  display:block;
+}
+.ManunaviButton{
+  border: 1px solid rgb(135, 243, 255);
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdf8 50%, rgb(99, 235, 104) 100%);
   display:block;
 }
 
 .title{
   float: left;
+  padding: 0px 970px 0px 0px;
 }
 
-.btn-circle-fishy { 
+.btn-circle-fishy {  
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   border-radius: 50%;
   text-align: center;
   overflow: hidden;
-  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  background-image: linear-gradient(45deg, #7098ff 0%, #ba9af6 100%);
   transition: .4s;
 }
 
@@ -28,19 +36,19 @@ ManunaviButton {
 .btn-circle-3d-dent {
   display: inline-block;
   text-decoration: none;
-  background: #12ce67;
-  color: rgb(5, 137, 5);
-  width: 122px;
+  background: #fc9b3b;
+  color: #ffddc1;
   font-size: 20px;
-  height: 120px;
-  line-height: 120px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   border-radius: 50%;
   text-align: center;
   overflow: hidden;
-  box-shadow: inset 0px 3px 0 rgba(255,255,255,0.3), 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 3px 0 rgba(255,255,255,0.3), 0 3px 3px #fed4aa;
   font-weight: bold;
-  border-bottom: solid 3px #549fa9;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+  border-bottom: solid 3px #fed4aa;
+  text-shadow: 1px 1px 1px #fed4aa;
   transition: .4s;
 }
 
@@ -54,15 +62,15 @@ ManunaviButton {
 .btn-circle-pink {
   display: inline-block;
   text-decoration: none;
-  color: #f9a9ae;
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
+  color: #f9b0a9;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   border-radius: 50%;
   text-align: center;
   overflow: hidden;
   font-weight: bold;
-  background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+  background-image: linear-gradient(#ffe2ec 0%, #ffaaaa 100%);
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }
